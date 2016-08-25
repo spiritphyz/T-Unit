@@ -29,5 +29,5 @@ The original Mocha CSS has a bad formatting problem: it doesn't allow long lines
  * Tweak background color so it's not a blazing white (easier on the eyes at night)
  * Fix display of bad "play button" characters: â€ [(Issue #2283)](https://github.com/mochajs/mocha/issues/2283#issuecomment-238116979)
 
- ## Credits
- The testing folder is based off of Andrew Smith's code with some improvements to the CSS styling. See his article: ["Beginner's guide to testing with Mocha & Chai"]:(http://www.andrewsouthpaw.com/2015/01/08/beginners-guide-to-testing-with-mocha-chai/)
+## Credits
+The testing folder is based off of Andrew Smith's code with some improvements to the CSS styling. See his article: ["Beginner's guide to testing with Mocha & Chai"](http://www.andrewsouthpaw.com/2015/01/08/beginners-guide-to-testing-with-mocha-chai/)

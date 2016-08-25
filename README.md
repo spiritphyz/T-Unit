@@ -7,9 +7,8 @@ A unit testing folder for easy integration (uses Mocha and Chai)
 * If you don't use the above filenames, change the appropriate lines in SpecRunner.html
 * Run your tests in a browser by opening SpecRunner.html
 
-```
-Mocha is a testing framework that can be run in a browser or on the server in Node.JS. Chai is an assertion library that allows you to test expected behavior by composing expectations in a friendly BDD style or a more traditional TDD style.
-```
+> Mocha is a testing framework that can be run in a browser or on the server in Node.JS.
+> Chai is an assertion library that allows you to test expected behavior by composing expectations in a friendly BDD style or a more traditional TDD style.
 
 ## Demo of BDD Style Testing
 There are 2 sample files:

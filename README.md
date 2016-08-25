@@ -4,7 +4,7 @@ A unit testing folder for easy integration (uses Mocha and Chai)
 * Copy the `test` folder into your project
 * Write your tests in `tests/tests.js`
 * Write your app code in `src/app.js`
-* If you don't use the above filenames, change the appropriate lines in SpecRunner.html
+ * If you don't use the above filenames, change the appropriate lines in SpecRunner.html
 * Run your tests in a browser by opening `SpecRunner.html`
 
 ```
@@ -25,5 +25,6 @@ They have sample tests for you to see the English-like sentence structure of Beh
 
 The original Mocha CSS has a bad formatting problem: it doesn't allow long lines. When an error is listed, it's hard to find the line number where the error occurred, or error messages get visually cut off. Here are the improvements:
  * Errors can have word-wrapping to allow full display of the message
- * Remove margins to allow longer lines
+ * Remove margins to allow longer lines for side-by-side window layout
  * Tweak background color so it's not a blazing white (easier on the eyes at night)
+ * Fixes display of bad characters [â€](https://github.com/mochajs/mocha/issues/2283#issuecomment-238116979)

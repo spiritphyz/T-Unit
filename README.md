@@ -9,13 +9,13 @@ A unit testing folder for easy integration (uses Mocha and Chai)
 
 ```
 Mocha is a testing framework that can be run in a browser or on the server in Node.JS.
-Chai is an assertion library that allows you to test expected behavior
-by composing expectations in a friendly BDD style or a more traditional TDD style.
+Chai is an assertion library that allows you to test desired behavior by composing 
+expectations in a friendly BDD style or a more traditional TDD style.
 ```
 
 ## Demo of BDD Style Testing
 There are 2 sample files:
- - `tests/tests.sample.js`
- - `app/app.sample.js`
+ - `tests/tests.js.sample`
+ - `app/app.js.sample`
 
 They have sample tests for you to see the English-like sentence structure of Behavior Driven Development style unit testing. To run the sample tests, replace the original `tests.js` and `app.js` with the above files and open `SpecRunner.html` in your browser. To see all the available test functions, check out the [Chai BDD API Reference](http://chaijs.com/api/bdd/).

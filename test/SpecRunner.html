@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	  <meta charset="UTF-8">
+		<title>App Testing Suite</title>
+		<link rel="stylesheet" href="lib/mocha.css">
+		<script src="lib/mocha.js"></script>
+		<script src="lib/chai.js"></script>
+		<script>
+			mocha.setup('bdd');
+			window.expect = chai.expect;
+			var ready = function(func) {
+				document.readyState != 'loading' ?
+				func() :
+				document.addEventListener('DOMContentLoaded', func);
+			};
+			var runPhantomOrMocha = function() {
+				window.mochaPhantomJS ?
+				mochaPhantomJS.run() :
+				mocha.run();
+			}
+			ready(runPhantomOrMocha);
+		</script>
+
+		<!-- source files -->
+		<script src="src/app.js"></script>
+
+		<!-- tests -->
+		<script src="tests/tests.js"></script>
+
+	</head>
+	<body>
+		<div id="mocha"></div>
+	</body>
+</html>

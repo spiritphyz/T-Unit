@@ -1,7 +1,7 @@
 # T-Unit
 A unit testing folder for easy integration (uses Mocha and Chai)
 
-* Copy the test folder into your project
+* Copy the `test` folder into your project
 * Write your tests in `tests/tests.js`
 * Write your app code in `src/app.js`
 * If you don't use the above filenames, change the appropriate lines in SpecRunner.html
@@ -18,4 +18,4 @@ There are 2 sample files:
  - `tests/tests.sample.js`
  - `app/app.sample.js`
 
-The 2 files contain sample Behavior Driven Development style tests for you to see the English-like sentence structure of individual tests. To run the sample tests, replace the original `tests.js` and `app.js` with the above files and open `SpecRunner.html` in your browser. To see all the available test functions, check out the [Chai BDD API Reference](http://chaijs.com/api/bdd/).
+They have sample tests for you to see the English-like sentence structure of Behavior Driven Development style unit testing. To run the sample tests, replace the original `tests.js` and `app.js` with the above files and open `SpecRunner.html` in your browser. To see all the available test functions, check out the [Chai BDD API Reference](http://chaijs.com/api/bdd/).

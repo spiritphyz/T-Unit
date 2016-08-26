@@ -30,4 +30,4 @@ The original Mocha CSS has a bad formatting problem: it doesn't allow long lines
  * Fix display of bad "play button" characters: â€ [(Issue #2283)](https://github.com/mochajs/mocha/issues/2283#issuecomment-238116979)
 
 ## Credits
-The testing folder is based off of Andrew Smith's instructions with some improvements to the CSS styling and removing jQuery reliance. See his article: ["Beginner's guide to testing with Mocha & Chai"](http://www.andrewsouthpaw.com/2015/01/08/beginners-guide-to-testing-with-mocha-chai/)
+The testing folder is based off of Andrew Smith's instructions with some CSS improvements and removal of jQuery reliance. See his article: ["Beginner's guide to testing with Mocha & Chai"](http://www.andrewsouthpaw.com/2015/01/08/beginners-guide-to-testing-with-mocha-chai/)

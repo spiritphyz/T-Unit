@@ -27,6 +27,7 @@ The original Mocha CSS has a bad formatting problem: it doesn't allow long lines
  * Errors can have word-wrapping to allow full display of the message
  * Remove margins to allow longer lines for side-by-side window layout
  * Tweak background color so it's not a blazing white (easier on the eyes at night)
+ * shows comments in light blue instead of impossible-to-read super-low-contrast light gray
  * Fix display of bad "play button" characters: â€ [(Issue #2283)](https://github.com/mochajs/mocha/issues/2283#issuecomment-238116979)
 
 ## Credits

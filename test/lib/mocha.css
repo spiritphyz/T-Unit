@@ -189,7 +189,7 @@ body {
   margin: 5px;
   padding: 5px 10px;
   border: 1px solid #eee;
-  /*max-width: 85%; /*(1)*/*/
+  /*max-width: 85%; (1)*/
   max-width: 90%; /*(1)*/
   max-width: calc(100% - 42px); /*(2)*/
   word-wrap: break-word;
